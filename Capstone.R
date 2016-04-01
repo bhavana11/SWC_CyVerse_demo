@@ -9,4 +9,4 @@ plot(newdata$year[newdata$country=="Kenya"],newdata$gdpPercap[newdata$country=="
 
 plot(newdata$year[newdata$country=="Nepal"],newdata$gdpPercap[newdata$country=="Nepal"], main="Scatterplot for Nepal",xlab="year", ylab="GDP ") 
 
-
+min()
