@@ -23,6 +23,8 @@ plot(newdata$year[newdata$country=="Cuba"],newdata$gdpPercap[newdata$country=="C
 plot(newdata$year[newdata$country=="Kenya"],newdata$gdpPercap[newdata$country=="Kenya"], main="Scatterplot for Kenya",xlab="year", ylab="GDP ") 
 
 plot(newdata$year[newdata$country=="Nepal"],newdata$gdpPercap[newdata$country=="Nepal"], main="Scatterplot for Nepal",xlab="year", ylab="GDP ") 
+
+aggregate(mydata$lifeExp,by=mydata$continent,mean)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
